@@ -1,0 +1,32 @@
+local input
+local key = loadstring(game:HttpGet('https://pastebin.com/raw/vgHWVwx1'))()
+
+
+function begin()
+    rconsoleprint('@@BLUE@@')
+    rconsolename("KENZOWARE")
+    rconsoleprint("Made By shlauta #0001 \n")
+    rconsoleprint("Enter Key: ")
+    input = rconsoleinput()
+    
+    
+    if input == key then
+        rconsoleclear()
+        rconsoleprint('@@CYAN@@')
+        rconsolename("KenzoWare")
+        rconsoleprint("Welcome To KenzoWare!\n")
+        rconsoleprint("CONTROLS: TO ENABLE: P, ANTI: Z, TARGET: T.\n")
+        loadstring(game:HttpGet('https://pastebin.com/raw/wtnnsGph'))()
+        
+    elseif input ~= key then
+        rconsoleprint("@@RED@@")
+        rconsoleprint ("Incorrect Key!\n")
+        rconsolename("Wrong Key!")
+        rconsoleclear()
+        begin()
+    end
+end
+
+
+
+begin()
