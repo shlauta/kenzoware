@@ -1,3 +1,4 @@
 local keyA = "iluvkenzo"
+local keyB = "4dgs"
 
-return keyA
+return keyA, keyB
