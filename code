@@ -1,5 +1,5 @@
 local input
-local key = loadstring(game:HttpGet('https://pastebin.com/raw/vgHWVwx1'))()
+local key = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlauta/kenzoware/code/keys'))()
 
 
 function begin()
