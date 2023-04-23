@@ -16,7 +16,7 @@ function begin()
         rconsolename("KenzoWare")
         rconsoleprint("Welcome To KenzoWare!\n")
         rconsoleprint("CONTROLS: TO ENABLE: P, ANTI: Z, TARGET: T.\n")
-        loadstring(game:HttpGet('https://pastebin.com/raw/wtnnsGph'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/shlauta/kenzoware/code/kenzoware.lua'))()
         
     elseif input ~= key then
         rconsoleprint("@@RED@@")
